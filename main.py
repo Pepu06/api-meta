@@ -5,7 +5,7 @@ from meta_ai_api import MetaAI
 ai = MetaAI() 
 
 app = Flask(__name__)
-# CORS(app)  # Habilita CORS para todas las rutas
+CORS(app)  # Habilita CORS para todas las rutas
 
 @app.route('/')
 def hello_world():
