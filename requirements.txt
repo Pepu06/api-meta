@@ -1,2 +1,3 @@
 flask
 meta-ai-api
+flask_cors
